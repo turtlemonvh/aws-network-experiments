@@ -97,7 +97,7 @@ We removed the security group setting allowing all TCP traffic to other nodes of
 The only other security group rules were allowing ssh from a set of subnets associated with our office VPN, so nodes in the subnset could no longer communicate with each other.
 This looks identical to iptables in `DROP` mode. No response is sent and curl times out.
 
-[security group configuration](security_group_setup.png)
+![security group configuration](security_group_setup.png)
 
 ```
 16:06:58.070235 IP 172.31.26.130.57102 > 172.31.43.42.irdmi: Flags [S], seq 1307417946, win 62727, options [mss 8961,sackOK,TS val 3228058576 ecr 0,nop,wscale 6], length 0
@@ -110,7 +110,7 @@ This looks identical to iptables in `DROP` mode. No response is sent and curl ti
 We added a network ACL rule to drop all incoming traffic on port 8000.
 This looks identical to iptables in `DROP` mode. No response is sent and curl times out.
 
-[network acl configuration](network_ack_setup.png)
+![network acl configuration](network_acl_setup.png)
 
 ```
 16:12:46.538826 IP 172.31.26.130.57114 > 172.31.43.42.irdmi: Flags [S], seq 3061520091, win 62727, options [mss 8961,sackOK,TS val 3228407045 ecr 0,nop,wscale 6], length 0
