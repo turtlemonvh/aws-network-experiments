@@ -6,6 +6,7 @@ I was interested if they sent any signal that packets were rejected (e.g. ICMP o
 
 See [this article](http://www.chiark.greenend.org.uk/~peterb/network/drop-vs-reject) for a nice discussion of DROP vs REJECT, and [this article](https://serverfault.com/questions/157375/reject-vs-drop-when-using-iptables) for a lot of confusing opinions. :)
 
+See [my self-answered Q&A about this topic on StackExchange](https://serverfault.com/questions/1028863/do-aws-security-groups-and-rules-and-network-acls-reject-or-drop-traffic/1028864#1028864).
 
 ## Experimental design
 
